@@ -18,4 +18,4 @@ async def snipe(ctx):
     my_file2 = open("snipe2.txt", "r")
     await ctx.reply('<@' + my_file2.read() + '>: ' + my_file.read())
 
-bot.run('ODk2NTc4NjIxMTEwNjE2MDY1.YWJJ6A.mPog9L3Nzpadd-LVZBXiFX2BfNs')
+bot.run(process.env.TOKEN)
